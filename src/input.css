@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+   
+.logo {
+    /* font-family: 'Mochiy Pop One', sans-serif; */
+  }
+  
+
+h1 ,h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+   
+    
+}
+
+img:hover{
+  animation:up .5s linear infinite alternate-reverse;
+
+
+}
+@keyframes up{
+  100%{
+  transform: translateY(-10px);
+  }
+}

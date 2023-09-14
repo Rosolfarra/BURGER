@@ -1,0 +1,782 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="all.min.css">
+<link rel="stylesheet" href="src/input.css">
+
+<body class="bg-blue-950 text-white dark:bg-black">
+    <!-- Header -->
+    <header class=" fixed  z-30 top-0 left-0 w-full bg-blue-950">
+        <div class="container  relative  flex justify-between items-center mx-auto" >
+            
+            
+            <div class="logo text-4xl font-semibold uppercase ml-3 lg:ml-10">Bur<span class="text-orange-300">ger</span>
+            </div>
+        
+            <div id="menu"  class="   hidden absolute     top-0 left-0  w-full bg-blue-950 py-14 md:bg-opacity-0 border-b border-orange-400   md:bg-none  md:static md:block md:border-none md:w-auto md:ml-auto   ">
+
+                <ul   class=" flex flex-col text-center py-0 gap-8  font-semibold md:flex-row  md:text-xl md:font-normal">
+                    <li><a href="#"class="nav-link text-orange-300">Home</a></li>
+                    <li><a href="#"class="nav-link hover:text-orange-300">About Us</a></li>
+                    <li><a href="#"class="nav-link hover:text-orange-300">Menu</a></li>
+                    <li><a href="#"class="nav-link hover:text-orange-300">Review</a></li>
+                    <li><a href="#"class="nav-link hover:text-orange-300">Contact </a></li>
+
+            
+                </ul>
+                <div id="x" class="absolute right-10 bottom-80 text-2xl cursor-pointer md:hidden">
+                    <i class="fa-solid fa-circle-xmark"></i>
+    
+                </div>
+            </div>
+
+<div class="icon flex gap-6 text-2xl cursor-pointer m-3">
+    <i class="fa-regular fa-moon mt-1 md:ml-6 md:px-6 md:text-3xl"></i>
+   <div id="bars" class="md:hidden">
+    <i class="fa-solid fa-bars"></i>
+   </div>
+</div>
+
+
+        
+        
+        </div>
+    </header>
+<section id="landing">
+    <div class="container  flex flex-col py-8 space-x-0 space-y-6 items-center md:gap-10 lg:gap-14  mx-auto lg:mt-14 md:mt-40 md:space-y-0  md:flex-row  md:items-center">
+        <div class="mx-auto  md:basis-1/2  lg:basis-2/5">
+<img src="image/e0c9cd6ee4962b4570df0396586045f5-removebg-preview.png" alt="" class="w-60     md:w-96   lg:ml-20 ">
+        </div>
+        <div class="text flex flex-col items-center text-center mb-5 px-5 md:basis-1/2/2 lg:basis-3/5 md:text-start">
+            <h1 class="text-6xl font-semibold mb-5 lg:text-8xl">Happ Tummy with tasty burger</h1>
+            <div class="w-52 h-0.5 bg-orange-300 md:self-start "></div>
+            <p class="text-sm mt-6 lg:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptates id praesentium eum voluptatem magnam suscipit blanditiis impedit molestiae dicta!</p>
+        
+        <div class="shape flex flex-row gap-14  py-10 text-xl  md:self-start">
+            
+                <div class="">
+                    <i class="fa-solid fa-utensils text-4xl text-orange-300 mb-2"></i> <br>
+                Delicious
+                </div>
+                <div class="">
+                    <i class="fa-brands fa-envira text-4xl text-orange-300 mb-2"></i> <br>
+                Organic
+                </div>
+                <div class="">
+                    <i class="fa-solid fa-droplet text-orange-300 text-4xl mb-2"></i> <br>
+                    Fresh
+                </div>
+                
+
+            
+        </div>
+        <a href="#" class="px-6 py-3 hover:bg-orange-300 font-extrabold bg-orange-400  rounded-lg md:self-start">Learn More</a>
+    </div>
+</section>
+
+<section id="food">
+    <div class="container mx-auto flex flex-col py-12 md:flex-row md:gap-2 ">
+        <div class=" flex flex-row gap-5 bg-orange-300  rounded rounded-2xl mx-auto px-20 overflow-hidden items-center">
+            <img src="image/7e79ad104a8b0ddf367b41e7f6d196f8-removebg-preview.png" alt="burger" class="w-28  -mb-5 -ml-28 ">
+        <div class="text-center">
+            <h3 class="text-white font-bold text-2xl">Food</h3>
+            <p class="text-lg font-extralight">Lorem ipsum dolor sit.</p>
+            <a href="#" class="text-xl text-black">buy Online</a>
+        </div>
+        
+        </div>
+        <div class=" flex flex-row gap-5 bg-red-600  rounded rounded-2xl mx-auto px-20 overflow-hidden items-center mt-5 md:mt-0">
+            <img src="image/cfac3ffadb2af89f74d9c8b7ee76492c-removebg-preview.png" alt="burger" class="w-28  -mb-5 -ml-28 ">
+        <div class="text-center">
+            <h3 class="text-white font-bold text-2xl">Food</h3>
+            <p class="text-lg font-extralight">Lorem ipsum dolor sit.</p>
+            <a href="#" class="text-xl text-orange-400">buy Online</a>
+        </div>
+        
+        </div>
+        <div class=" flex flex-row gap-5 bg-green-700  rounded rounded-2xl mx-auto px-20 overflow-hidden items-center mt-5 md:mt-0">
+            <img src="image/e60b382b50723547611850c74f907646-removebg-preview.png" alt="burger" class="w-28  -mb-5 -ml-28 ">
+        <div class="text-center">
+            <h3 class="text-white font-bold text-2xl">Food</h3>
+            <p class="text-lg font-extralight">Lorem ipsum dolor sit.</p>
+            <a href="#" class="text-xl text-orange-400">buy Online</a>
+        </div>
+        
+        </div>
+
+    </div>
+</section>
+
+
+<section id="ctagory">
+
+<div class="container flex flex-col mx-auto py-8 lg:mt-16 lg:flex-row lg:py-0 lg:gap-10 ">
+<div class="flex flex-col items-center bg-blue-900 rounded-3xl mx-10  md:flex-row md:items-center lg:flex-row-reverse lg:flex-1 ">
+    <img src="image/one-removebg-preview.png" alt="burger" class="w-56 -mt-16 lg:mt-0">
+    <div class="mx-6 py-3">
+<p class="text-sm text-orange-400 lg:mb-4 mb-3">Payday Promo</p>
+<h4 class="text-2xl font-bold lg:text-3xl  lg:mb-4 mb-4">Get 10% Discount on Payday Week</h4>
+<p class="text-sm font-thin lg:mb-2 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rerum quasi dolor consequuntur nulla,!</p>
+<a href="#" class="text-sm text-orange-400  ">Buy Online</a>
+
+
+    </div>
+</div>
+
+
+<div class="flex flex-col items-center bg-blue-900 rounded-3xl mx-10  mt-6 md:flex-row md:items-center lg:flex-row-reverse lg:flex-1 lg:mt-0 ">
+    <img src="image/06b3e16b2a1043228a85757576f542bd-removebg-preview.png" alt="burger" class="w-40 lg:mt-0 ">
+    <div class="mx-6 py-3">
+<p class="text-sm text-orange-400 lg:mb-4 mb-3">Payday Promo</p>
+<h4 class="text-2xl font-bold lg:text-3xl lg:mb-4 mb-4">Get 10% Discount on Payday Week</h4>
+<p class="text-sm font-thin lg:mb-2 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rerum quasi dolor consequuntur nulla,!</p>
+<a href="#" class="text-sm text-orange-400 ">Buy Online</a>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</section>
+
+<section id="taste">
+    <div class="container mx-auto flex flex-col items-center py-12  md:mt-12 lg:mt-20 lg:flex-row lg:items-center lg:gap-x-10 ">
+
+        <div class=" image lg:w-1/2 pr-20 lg:pr-0">
+            <img src="image/a902dcb02276a915d3c30555e2bd34a2.jpg" alt="" class="mx-10 rounded-xl lg:mx-14  ">
+        </div>
+<div class="flex flex-col py-5 mx-10 lg:w-1/2 ">
+    <h2 class="text-3xl mb-3 font-bold  uppercase">Find Food and drinks , all-in-one place for your best taste</h2>
+    <div class="w-52 h-0.5 bg-orange-300 md:self-start mb-6"></div>
+    <p class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus rerum nisi tempora eligendi atque a, ut dignissimos. Distinctio accusantium cum ipsa quas quaerat veniam nostrum aperiam adipisci quo, officiis dolor?</p>
+<div class="grid grid-cols-2 mt-3">
+    <div class="flex flex-row">
+        <i class="fa-solid fa-check text-orange-400 mt-1"></i>
+        <p class="ml-5 mb-2">Best Price</p>
+    </div>
+    <div class="flex flex-row ">
+        <i class="fa-solid fa-check  text-orange-400 mt-1"></i>
+        <p class=" ml-5 mb-2">Best Price</p>
+    </div>
+    <div class="flex flex-row">
+        <i class="fa-solid fa-check  text-orange-400 mt-1"></i>
+        <p class=" ml-5 mb-2">Best Price</p>
+    </div>
+    <div class="flex flex-row">
+        <i class="fa-solid fa-check text-orange-400 mt-1"></i>
+        <p class=" ml-5 mb-2">Best Price</p>
+    </div>
+
+</div>
+
+<a href="#" class="py-3 px-6 bg-orange-300 w-40 rounded rounded-2xl mt-4 text-center font-bold text-black">About Us</a>
+
+</div>
+
+
+
+    </div>
+</section>
+
+<section id="menu-food">
+<div class="container flex flex-col gap-5 py-20 mx-auto">
+    <div class="info flex flex-col items-center text-center">
+<h2 class="text-5xl font-bold mb-4 uppercase">our best menu</h2>
+  <div class="w-40 h-0.5 bg-orange-400 mb-4"></div>
+<p class="text-sm mb-10  md:ml-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit vitae illo architecto cumque dolor sapiente nihil id eligendi a hic!</p>
+
+
+
+</div>
+<div class="tabs cursor-pointer">
+  <ul  class="  flex flex-wrap gap-5 justify-center items-center ">
+<li data-tabs="all"  class="   btn active py-4 px-10 bg-orange-300 rounded-2xl hover:bg-orange-400  hover:text-black">All</li>
+<li data-tabs="food"  class=" btn py-4 px-10 bg-blue-900 rounded-2xl hover:bg-orange-400 hover:text-black">Food</li>
+<li data-tabs="snack"  class=" btn py-4 px-10 bg-blue-900 rounded-2xl hover:bg-orange-400 hover:text-black">Snack</li>
+<li   data-tabs="bevarge" class=" btn py-4 px-10 bg-blue-900 rounded-2xl hover:bg-orange-400 hover:text-black">Bevarge</li>
+  </ul>
+</div>
+</div>
+ 
+   
+
+</div>
+<!-- burger -->
+
+  <ul class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+    <li>
+      <div class=" item-wrap food box ">
+        <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+            <img src="image/one-removebg-preview.png" alt="" class="w-40 -mt-9">
+          </div>
+           
+        <div class="info ml-3 lg:ml-6">
+            <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">Bregular beef burger</h3>
+          <p class="text-xs text-gray-400 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+        <span class="text-orange-500 text-lg">$40.00</span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="box  item-wrap food">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/two-removebg-preview.png" alt="" class="w-32 -mt-5">
+        </div>
+         
+      <div class="info ml-3 lg:ml-6 ">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">Bregular beef burger</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+   <li> 
+    <div class="box item-wrap food">
+    <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+        <img src="image/three-removebg-preview.png" alt="" class="w-36 ">
+      </div>
+       
+    <div class="info ml-3  lg:ml-6">
+        <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">Bregular beef burger</h3>
+      <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+    <span class="text-orange-500 text-lg">$40.00</span>
+    </div>
+  </div>
+  </li>
+    <li>
+      <div class="box item-wrap food">
+        <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+            <img src="image/four-removebg-preview.png" alt="" class="w-80 -mt-60">
+          </div>
+           
+        <div class="info ml-3  lg:ml-6">
+            <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">Bregular beef burger</h3>
+          <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+        <span class="text-orange-500 text-lg">$40.00</span>
+        </div>
+      </div>
+    </li>
+   <li>
+    <div class="box item-wrap food">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/five-removebg-preview.png" alt="" class="w-40 -mt-9">
+        </div>
+         
+      <div class="info ml-3 lg:ml-6 ">
+          <h3 class="text-4xl font-bold  mb-4 lg:text-3xl lg:mt-2">Bregular beef burger</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+   </li>
+   <li>
+    <div class="box  item-wrap food">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/six-removebg-preview.png" alt="" class="w-56 -mt-9">
+        </div>
+         
+      <div class="info ml-3  lg:ml-6">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">Bregular beef burger</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+   </li>
+  <li>
+    <div class="box item-wrap food">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/seven-removebg-preview.png" alt="" class="w-56 -mt-20">
+        </div>
+         
+      <div class="info ml-3  lg:ml-6">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">Bregular beef burger</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+    <li>
+      <div class="box  item-wrap food">
+        <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+            <img src="image/8-removebg-preview.png" alt="" class="w-40 ">
+          </div>
+           
+        <div class="info ml-3  lg:ml-6">
+            <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">Bregular beef burger</h3>
+          <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+        <span class="text-orange-500 text-lg">$40.00</span>
+        </div>
+      </div>
+    </li>
+    
+    
+  
+  
+   
+  <li>
+    <div class="box item-wrap snack">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/snack1-removebg-preview.png" alt="" class="w-40 -mt-9">
+        </div>
+         
+      <div class="info ml-3 lg:ml-6">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">French Frise</h3>
+        <p class="text-xs text-gray-400 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  
+  </li>
+  <li>
+    <div class="box item-wrap snack">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/snac3-removebg-preview.png" alt="" class="w-32 ">
+        </div>
+         
+      <div class="info ml-3 lg:ml-6 ">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">French Frise</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="box item-wrap snack">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/snak-removebg-preview.png" alt="" class="w-36 -mt-3 ">
+        </div>
+         
+      <div class="info ml-3  lg:ml-6">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">French Frise</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="box item-wrap snack">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/snak-removebg-preview.png" alt="" class="w-40 ">
+        </div>
+         
+      <div class="info ml-3  lg:ml-6">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">French Frise</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="box item-wrap snack">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/snak2-removebg-preview.png" alt="" class="w-52 -mt-9">
+        </div>
+         
+      <div class="info ml-3 lg:ml-6 ">
+          <h3 class="text-4xl font-bold  mb-4 lg:text-3xl lg:mt-2">French Frise</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="box item-wrap snack">
+    <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+        <img src="image/snak5-removebg-preview.png" alt="" class="w-56 -mt-9">
+      </div>
+       
+    <div class="info ml-3  lg:ml-6">
+        <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">French Frise</h3>
+      <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+    <span class="text-orange-500 text-lg">$40.00</span>
+    </div>
+  </div>
+  </li>
+  
+  <li>
+    <div class="box item-wrap snack">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/snack1-removebg-preview.png" alt="" class="w-36 -mt-3 ">
+        </div>
+         
+      <div class="info ml-3  lg:ml-6">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">French Frise</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+
+   
+  
+  <li>
+    <div class="box item-wrap snack">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/snak-removebg-preview.png" alt="" class="w-40 ">
+        </div>
+         
+      <div class="info ml-3  lg:ml-6">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2">French Frise</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+    
+   
+   
+    
+    
+  
+  <!-- /bevarge -->
+
+  <li>
+    <div class="box item-wrap bevarge">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/bevar-removebg-preview.png" alt="" class="w-40 -mt-9">
+        </div>
+         
+      <div class="info ml-3 lg:ml-6">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2 uppercase">sweet Smoothie</h3>
+        <p class="text-xs text-gray-400 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="box item-wrap bevarge">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/bevarge4-removebg-preview.png" alt="" class="w-32 ">
+        </div>
+         
+      <div class="info ml-3 lg:ml-6 ">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2 uppercase">sweet Smoothie</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="box item-wrap bevarge">
+    <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+        <img src="image/bevarge3-removebg-preview.png" alt="" class="w-36 -mt-3 ">
+      </div>
+       
+    <div class="info ml-3  lg:ml-6">
+        <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2 uppercase">sweet Smoothie</h3>
+      <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+    <span class="text-orange-500 text-lg">$40.00</span>
+    </div>
+  </div>
+  </li>
+  <li>
+    <div class="box item-wrap bevarge">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/bevarge2-removebg-preview.png" alt="" class="w-40 ">
+        </div>
+         
+      <div class="info ml-3  lg:ml-6">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2 uppercase">sweet Smoothie</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="box item-wrap bevarge">
+    <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+        <img src="image/bevarg6-removebg-preview.png" alt="" class="w-52 -mt-9">
+      </div>
+       
+    <div class="info ml-3 lg:ml-6 ">
+        <h3 class="text-4xl font-bold  mb-4 lg:text-3xl lg:mt-2 uppercase">sweet Smoothie</h3>
+      <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+    <span class="text-orange-500 text-lg">$40.00</span>
+    </div>
+  </div>
+  </li>
+  <li>
+    <div class="box item-wrap bevarge">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/bev7-removebg-preview.png" alt="" class="w-40 ">
+        </div>
+         
+      <div class="info ml-3  lg:ml-6">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2 uppercase">sweet Smoothie</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="box item-wrap bevarge">
+    <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+        <img src="image/bev2-removebg-preview.png" alt="" class="w-52">
+      </div>
+       
+    <div class="info ml-3  lg:ml-6">
+        <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2 uppercase">sweet Smoothie</h3>
+      <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+    <span class="text-orange-500 text-lg">$40.00</span>
+    </div>
+  </div></li>
+  <li>
+    <div class="box  item-wrap bevarge">
+      <div class="h-56 grid place-items-center bg-blue-900 rounded-3xl mx-5 overflow-hidden">
+          <img src="image/bevv-removebg-preview.png" alt="" class="w-52 ">
+        </div>
+         
+      <div class="info ml-3  lg:ml-6">
+          <h3 class="text-4xl font-bold  mb-4  lg:text-3xl lg:mt-2 uppercase">sweet smoothie</h3>
+        <p class="text-xs text-gray-400 mb-2 lg:m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt.</p>
+      <span class="text-orange-500 text-lg">$40.00</span>
+      </div>
+    </div>
+  </li>
+ 
+  </ul>
+  
+    </div>
+      
+</section>
+
+<section id="customer " class="py-12">
+<div class="flex flex-col gap-5 mt-20 items-center text-center px-5">
+  <h2 class="uppercase text-5xl font-bold">Cutomer Review</h2>
+<div class="w-52 h-0.5 bg-orange-400"></div>
+<p class="text-sm text-gray-400 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores assumenda architecto enim vero rerum! Soluta molestiae sint excepturi tempora similique.</p>
+
+
+
+
+</div>
+<div class="container flex flex-col gap-5 mx-auto md:flex-row md:gap-2 md:mt-12" >
+  
+ 
+    <div class="bg-blue-900 w-96 rounded-3xl mx-auto  px-10  ">
+      <p class="text-xs mb-6 mt-5  self-start text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, temporibus doloremque est facere sequi quam repellendus odio quibusdam odit repellat cumque atque similique vero architecto enim fugit ut illo! Inventore!</p>
+      <div class="flex flex-row justify-between gap-5 ">
+        <div class="flex gap-2">
+          <img src="image/5eec3eb098d0c83dfae1570644060dd0.jpg" alt="" class="w-12 rounded-full mb-4">
+        <div class="flex flex-col">
+          <p class="mt-2 font-bold">JOHAN NOG</p>
+          <p class="text-gray-300">Designer</p>
+        </div>
+    
+        </div>
+        <i class="fa-solid fa-quote-right mt-3 text-5xl text-orange-400 md:text-3xl"></i>
+      </div>
+    </div>
+    <div class="bg-blue-900 w-96 rounded-3xl mx-auto  px-10 ">
+      <p class="text-xs mb-6 mt-5  self-start text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, temporibus doloremque est facere sequi quam repellendus odio quibusdam odit repellat cumque atque similique vero architecto enim fugit ut illo! Inventore!</p>
+      <div class="flex flex-row justify-between gap-5 ">
+        <div class="flex gap-2">
+          <img src="image/c5baab2f60c965c957904782186a62d2.jpg" alt="" class="w-12 rounded-full mb-4">
+        <div class="flex flex-col">
+          <p class="mt-2 font-bold uppercase">noury maan</p>
+          <p class="text-gray-300">Front-End</p>
+        </div>
+    
+        </div>
+        <i class="fa-solid fa-quote-right mt-3 text-5xl text-orange-400 md:text-3xl"></i>
+      </div>
+    </div>
+    <div class="bg-blue-900 w-96 rounded-3xl mx-auto  px-10 ">
+      <p class="text-xs mb-6 mt-5  self-start text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, temporibus doloremque est facere sequi quam repellendus odio quibusdam odit repellat cumque atque similique vero architecto enim fugit ut illo! Inventore!</p>
+      <div class="flex flex-row justify-between gap-5 ">
+        <div class="flex gap-2">
+          <img src="image/cdb6b1eb5bd5d25201d9ab9f588f3fdf.jpg" alt="" class="w-12 rounded-full mb-4">
+        <div class="flex flex-col">
+          <p class="mt-2 font-bold uppercase">ahmed hosary</p>
+          <p class="text-gray-300">UX & UI
+          </p>
+        </div>
+    
+        </div>
+        <i class="fa-solid fa-quote-right mt-3 text-5xl text-orange-400 md:text-3xl "></i>
+      </div>
+    </div>
+    
+    
+    </div>
+    
+    </section>
+   
+
+
+    <section id="contact" class="bg-orange-300 mt-20   ">
+<div class="container flex flex-col gap-5 lg:items-center lg:flex-row px-10  lg:py-5 md:ml-9 md:gap-3  md:items-center md:text-center">
+
+<div class="space-y-5 lg:flex-1 ">
+<h2 class="text-black text-xl mb-5 mt-5 font-bold lg:text-4xl lg:mb-5 md:text-lg">GET EXCLUSIVE UPDATE</h2>
+<p class="text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fuga, eius nisi harum eum debitis!</p>
+</div>
+<div class="flex flex-col py-6 gap-3 lg:flex-row lg:flex-1 lg:pl-40 ">
+
+<input type="email" name="email"  placeholder="Email Address" class="p-2 text-black rounded-lg outline-none lg:w-full lg:p-5 md:w-52">
+<a href="#" class="flex items-center justify-center gap-2 bg-black hover:opacity-75 lg:w-40   md:w-52 ">
+  <i class="fa-solid fa-square-up-right"></i>
+  Subscribe
+</a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+    </section>
+
+
+
+<footer>
+  <div class="container mt-20">
+    <ul class="grid grid-cols-1 items-start gap-5 pb-5 px-10 md:px-0 md:grid-cols-2 lg:grid-cols-4 md:ml-14 md:gap-y-16 md:gap-x-40  lg:ml-24 lg:space-x-6">
+      <li>
+        <div class="flex flex-col space-y-5 mb-10">
+          <h3 class="text-3xl uppercase  ">Bur<span class="text-orange-300">ger</span></h3>
+          <p class="text-sm ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis suscipit atque fugit adipisci necessitatibus eligendi. Corrupti iste atque amet nemo enim inventore veniam. Ipsam obcaecati itaque quae, temporibus unde impedit.</p>
+        </div>
+        
+      </li>
+
+<li>
+  <div class="flex flex-col gap-5 mb-10">
+<h3 class="uppercase text-lg">support</h3>
+<a href="#"  class="hover:text-orange-400">FAQ's</a>
+<a href="#" class="hover:text-orange-400">Privacy Policy</a>
+<a href="#" class="hover:text-orange-400">Team $ Condation</a>
+<a href="#" class="hover:text-orange-400">Contact</a>
+
+  </div>
+  
+</li>
+<li class="mb-10">
+<div class="flex flex-col gap-5  md:ml-0 mb-3">
+  <h3 class="text-lg">PHONE</h3>
+<div class="flex flex-row gap-3">
+  <i class="fa-solid fa-phone text-orange-400 mt-1"></i>
+  <span class="hover:text-orange-400 text-sm ">+594 987 262</span>
+
+</div>
+</div>
+
+<div class="flex flex-col gap-5 mt-10  md:ml-0">
+  <h3 class="text-lg">Email</h3>
+
+<div class="flex flex-row gap-3">
+ 
+  <i class="fa-solid fa-envelope text-orange-400 mt-1"></i>
+  <span class="hover:text-orange-400">rosing@gmail.com</span>
+
+
+</div>
+</div>
+
+
+</li>
+<li class=" mb-10">
+ 
+  <div class="flex flex-col gap-5  md:ml-0 mb-3">
+    <h3 class="text-lg">Address</h3>
+  <div class="flex flex-row gap-3">
+    <i class="fa-solid fa-location-dot text-orange-400 mt-1"></i>
+
+    <span class="hover:text-orange-400 text-sm mb-5">Address Goes Here</span>
+  
+  </div>
+  </div>
+  <div class="flex flex-col gap-3 mb-2 ">
+    <h3 class="text-lg">FOLLOW US</h3>
+    <div class="flex gap-5 text-2xl">
+      <i class="fab fa-facebook text-orange-400  hover:text-orange-500"></i>
+      <i class="fab fa-twitter text-orange-400 hover:text-orange-500"></i>
+      <i class="fab fa-instagram text-orange-400 hover:text-orange-500"></i>
+    
+    </div>
+      </div>
+    
+      
+ 
+  </li>
+  
+
+
+    </ul>
+<div class="flex flex-col text-center gap-3 md:flex-row md:justify-between md:items-center px-20 mb-3 text-gray-400">
+<p>Burger Template Kit by Ligh Code</p>
+<p>CopyRight &copy; 2023 </p>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+
+
+
+
+
+<script src="./dist/script.js"></script>
+
+   <script src="./dist/style.css"></script>
+</body>
+</html>
